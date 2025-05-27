@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mentis | Impara a Programmare</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>MENTIS</h1>
+                <span>x ISISS "P.GOBETTI A.- DE GASPERI"</span>
+            </div>
+            <nav>
+                <a href="index.html" class="active">Home</a>
+                <a href="about.html">About</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container">
+                <h2>Impara a Programmare</h2>
+                <p>Riassunti gratuiti per studenti</p>
+            </div>
+        </section>
+
+        <section class="downloads">
+            <div class="container">
+                <div class="grid">
+                    <div class="card" onclick="downloadPDF('html')">
+                        <i class="fab fa-html5"></i>
+                        <h3>HTML</h3>
+                        <button>Scarica</button>
+                    </div>
+                    
+                    <div class="card" onclick="downloadPDF('css')">
+                        <i class="fab fa-css3-alt"></i>
+                        <h3>CSS</h3>
+                        <button>Scarica</button>
+                    </div>
+                    
+                    <div class="card" onclick="downloadPDF('javascript')">
+                        <i class="fab fa-js"></i>
+                        <h3>JavaScript</h3>
+                        <button>Scarica</button>
+                    </div>
+                    
+                    <div class="card" onclick="downloadPDF('cpp')">
+                        <i class="fas fa-code"></i>
+                        <h3>C++</h3>
+                        <button>Scarica</button>
+                    </div>
+                    
+                    <div class="card" onclick="downloadPDF('python')">
+                        <i class="fab fa-python"></i>
+                        <h3>Python</h3>
+                        <button>Scarica</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>© 2025 Harman - 1K</p>
+            <img src="programmare-in-html-con-java-script.jpg" alt="Logo scuola">
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
