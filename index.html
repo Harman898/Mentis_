@@ -7,6 +7,22 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        .hero-content {
+            display: flex;
+            align-items: center;
+            gap: 45px;
+            text-align: left;
+        }
+        .hero-text {
+            flex: 1;
+        }
+        .hero-image {
+            width: 300px;
+            height: auto;
+            border-radius: 8px;
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -26,8 +42,13 @@
     <main>
         <section class="hero">
             <div class="container">
-                <h2>Impara a Programmare</h2>
-                <p>Riassunti gratuiti per studenti</p>
+                <div class="hero-content">
+                    <div class="hero-text">
+                        <h2>Impara a Programmare</h2>
+                        <p>Riassunti gratuiti per studenti</p>
+                    </div>
+                    <img src="file:///C:/Users/Gursimran/Downloads/programming2-bbeb63e1c28d43dda275c2fb3e2ef459.jpg" alt="Programmazione" class="hero-image">
+                </div>
             </div>
         </section>
 
@@ -71,7 +92,6 @@
     <footer>
         <div class="container">
             <p>© 2025 Harman - 1K</p>
-            <img src="programmare-in-html-con-java-script.jpg" alt="Logo scuola">
         </div>
     </footer>
 
